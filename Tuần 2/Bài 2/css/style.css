@@ -1,0 +1,149 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 98%;
+    height: 100vh;
+    margin: 1% auto;
+}
+
+header {
+    background-image: url(../image/background.png);
+    height: 20%;
+}
+
+header .trademark {
+    display: flex;
+    align-items: center;
+    margin: 0;
+}
+
+header .trademark img {
+   width: 8%;
+}
+
+header .trademark h3 {
+    font-size: 2rem;
+    color: #fff;
+}   
+
+header .trademark h3 p {
+    font-size: 1rem;
+}
+
+nav {
+    height: 5%;
+    width: 100%;
+    background: #a5a3a3;
+}
+
+nav ul {
+    display: flex;
+    color: #fff;
+    font-size: 1rem;
+    height: 100%;
+    align-items: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 20px;
+}
+
+nav ul li:nth-child(1) {
+    color: #000;
+}
+
+.content {
+    display: flex;
+}
+
+.content section {
+    width: 80%;
+}
+
+.content aside {
+    width: 20%;
+}
+
+.food {
+    display: flex;
+    margin: 1%;
+}
+
+.food .name {
+    border: 1px solid #ccc;
+}
+
+.food .name img{
+    margin: 2%;
+    width: 96%;
+    height: 80%;
+    border: 1px solid #ccc;
+}
+
+.food .name p {
+    margin: 0 2% 2% 2%;
+}
+
+.food .description {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.food .description h3 {
+    font-size: 1.6rem;
+}
+
+.food .description h3 p {
+    font-size: 1.2rem;
+    color: rgb(254, 141, 160);
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.content aside {
+    border-left: 1px solid #ccc;
+}
+
+.content aside section {
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+.content aside section h3 {
+    color: rgb(254, 141, 160);
+    font-size: 1.6rem;
+    margin-bottom: 20px;
+}
+
+.content aside section ul {
+    color: rgb(254, 141, 160);
+    list-style: none;
+    font-size: 1.2rem;
+}
+
+.content aside section ul li {
+    margin: 10px 3px;
+}
+
+.content aside section ol {
+    list-style: none;
+}
+
+footer {
+    height: 4%;
+    width: 100%;
+    background: #a5a3a3;
+    color: #fff;
+    display: flex;
+    align-items: flex-end;  
+}
+
+footer p {
+    font-size: .8rem;
+    margin-left: 10px;
+}

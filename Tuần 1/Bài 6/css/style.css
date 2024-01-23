@@ -1,0 +1,49 @@
+* {
+    padding: 0;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+div {
+    width: 800px; 
+}
+
+.register {
+    border: 2px solid #ccc; 
+    background-color: rgb(66, 204, 250);
+}
+
+.trademark {
+    border: 1px solid #000; 
+    border-radius: 10px; 
+    box-shadow: 8px 8px 5px #aca7a7; 
+    width: 300px; 
+    background-color: rgb(154, 229, 254);
+    text-align: center;
+}
+
+.trademark h1:first-child {
+    border-bottom: 4px solid #000;
+}
+
+.form-register h1 {
+    text-align: center;
+    font-size: 30px;
+    margin: 30px;
+}
+
+.form-register .submit {
+    text-align: center;
+}
+
+.form1 {
+    margin: 50px 0;
+    border: 2px solid #ccc;
+    height: 360px;
+}
+
+.form2 {
+    margin: 50px 0;
+    border: 2px solid #ccc;
+    height: 250px;
+    width: 250px;
+}

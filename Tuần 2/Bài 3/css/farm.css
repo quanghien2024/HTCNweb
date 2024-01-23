@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
+
+* {
+    padding: 0;
+    margin: 0 auto;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background-image: url(../image/background.jpg);
+}
+
+.main {
+    margin: 8px;
+}
+
+.content {
+    margin-top: 24px;
+    display: flex;
+}
+
+.content .nav {
+    width: 15%;
+    height: 180px;
+    background: #fff;
+    box-shadow: 2px 2px 1px 1px #ccc inset,
+                2px 2px 1px 2px #424242;
+    position: relative;
+}
+
+.content .nav::before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 2%;
+    height: 96%;
+    background-color: #ccc;
+    right: 0;
+    bottom: 0;
+}
+
+.content .nav::after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 96%;
+    height: 2%;
+    background-color: #ccc;
+    left: 7px;
+    bottom: 0;
+}
+
+.content .nav span::before {
+    content: "";
+    display: block;
+    position: absolute;
+    border: 2px solid;
+    border-color: #fff #ccc #ccc #fff;
+    right: 0;
+    top: 4px;
+}
+
+.content .nav span::after {
+    content: "";
+    display: block;
+    position: absolute;
+    border: 2px solid;
+    border-color: #fff #ccc #ccc #fff;
+    left: 4px;
+    bottom: 0;
+}
+
+.content .nav ul {
+    list-style: none;
+}
+
+.nav ul li {
+    margin: 2px 0 10px 10px;
+}
+
+.nav ul li a{
+    text-decoration: none;
+}
+
+.content .section {
+    color: #fff;
+    border-left: 2px solid green;
+    margin-left: 30px;
+    width: 85%;
+}
+
+.section h1 {
+    width: 80%;
+    background-color: green;
+    margin-left: 30px;
+    font-style: italic;
+    font-weight: 600;
+    padding: 0 80px;
+    letter-spacing: 20px;
+}
+
+.section .welcome {
+    display: flex;
+    margin-top: 30px;
+}
+
+.section .welcome .passage {
+    margin-left: 30px;
+}
+
+.section .paragraph {
+    margin-left: 30px;
+}
+
+.section .paragraph p {
+    margin: 20px 0;
+}
+
+.section .information {
+    margin-left: 30px;
+}
+
+.section .information h2 {
+    font-weight: 600;
+    font-size: 18px;
+    background-color: green;
+    width: 40%;
+    margin: 0;
+    padding: 0 16px;
+}
+
+.section .information ul {
+    margin: 30px 0 30px 50px;
+}
+
+.footer {
+    margin-top: 20px;
+    color: #fff;
+    border-top-style: double;
+    border-top-color: green;
+    border-top-width: 8px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    font-weight: 200;
+}

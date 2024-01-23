@@ -1,0 +1,191 @@
+* {
+    padding: 0;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.header {
+    width: 100%;
+    height: 80px;
+}
+
+.header h1 {
+    font-style: italic;
+    color: rgb(236, 3, 135);
+    text-align: center;
+    line-height: 80px;
+    text-shadow: 9px 8px 1px rgb(252, 182, 194);
+    font-weight: 600;
+}
+
+.nav {
+    height: 50px;
+    background: rgb(252, 182, 194);
+    display: flex;
+    align-items: center;
+    padding: 0 300px;
+}
+
+.nav img {
+    width: 20px;
+    height: 20px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+}
+
+.nav span {
+    font-size: 36px;
+    color: blue;
+    translate: 0 -2px;
+}
+
+.content {
+    width: 100%;
+    display: flex;
+}
+
+.content .list {
+    width: 15%;
+}
+
+.content .list ul {
+    display: block;
+    margin: 10px 0;
+}
+
+.content .list ul li {
+    background-color: rgb(252, 182, 194);
+    color: #fff;
+    border-radius: 20px;
+    height: 30px;
+    line-height: 30px;
+    margin: 4px 4px 4px 0; 
+    padding-left: 20px;
+}
+
+.content .list img {
+    width: 100%;
+    margin-top: 20px;
+    border-radius: 50%;
+    box-shadow: 6px 20px 7px rgb(252, 182, 194);
+}
+
+.content .section {
+    width: 60%;
+}
+
+.section .introduce {
+    margin: 10px 0;
+}
+
+.section .introduce h1 {
+    width: 56%;
+    color: brown;
+    background: rgb(252, 182, 194);
+    letter-spacing: 20px;
+    padding-left: 20px;
+}
+
+.section .introduce:nth-child(3) h1 {
+    text-transform: uppercase;
+}
+
+.introduce ul li {
+    margin-left: 52px;
+}
+
+.section .introduce:first-child ul li:nth-child(3) {
+    text-transform: uppercase;
+}
+
+.section .introduce ul li u {
+    color: red;
+    font-weight: 700;
+}
+
+.section .introduce a {
+    margin-left: 10px;
+    color: red;
+    font-weight: 700;
+}
+
+.information {
+    width: 94%;
+    margin-top: 15px;
+}
+
+.information input {
+    width: calc(90%/2);
+    height: 46px;
+    padding: 10px;
+    margin: 0 12px;
+}
+
+.information select {
+    width: calc(90%/2);
+    height: 46px;
+    padding: 10px;
+    margin: 0 12px;
+}
+
+.information .select {
+    display: flex;
+}
+
+.information .select .national {
+    margin-left: 4px;
+    display: flex;
+    width: 25px;
+    align-items: center;
+}
+
+.introduce .information textarea {
+    margin: 0 12px;
+}
+
+.information .btn {
+    width: 80px;
+    height: 40px;
+}
+
+.content .aside {
+    width: 25%;
+    margin: 10px 0;
+    background-color: #000;
+    color: #fff;
+}
+
+.content .aside h1 {
+    font-size: 30px;
+}
+
+.aside .event {
+    height: 250px;
+    margin: 20px 30px;
+}
+
+.aside .event h2 {
+    font-size: 22px;
+}
+
+.aside .event img {
+    width: 100%;
+}
+
+.aside .event:last-child {
+    margin-top: 50px;
+}
+
+.footer {
+    width: 100%;
+    height: 50px;
+    background: rgb(215, 78, 101);
+    color: #fff;
+    text-align: center;
+    font-size: 22px;
+    line-height: 50px;
+}
